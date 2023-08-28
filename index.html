@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <section class="login_page">
+    <section class="login_page" id="login_page">
       <div class="welcome_text" id="welcome_text">
         <p class="Welcome_to" id="Welcome_to">Welcome to</p>
         <div class="i_starnet" id="i_starnet">
@@ -58,6 +58,7 @@
     const btn_get_otp = document.getElementById("btn_get_otp");
     const input_sec = document.getElementById("input_sec");
     const Terms = document.getElementById("Terms");
+    const login_page = document.getElementById("login_page");
    
 
     number.addEventListener("click", function () {
@@ -70,6 +71,7 @@
         input_sec.style.height = "50%";
         input_sec.style.top = "20%";
         Terms.style.visibility = "hidden";
+        login_page.style.height = "70vh";
         
     });
   </script>
