@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="input_sec" id="input_sec">
-        <div class="your_compony_logo">your compony logo</div>
+        <div class="your_compony_logo" id="your_compony_logo">your compony logo</div>
         <p class="enter_no_text">Enter your mobile number</p>
         <div class="mobile_no">
           <!-- Country names and Phone Code -->
@@ -59,6 +59,7 @@
     const input_sec = document.getElementById("input_sec");
     const Terms = document.getElementById("Terms");
     const login_page = document.getElementById("login_page");
+    const your_compony_logo = document.getElementById("your_compony_logo");
    
 
     number.addEventListener("click", function () {
@@ -72,6 +73,8 @@
         input_sec.style.top = "20%";
         Terms.style.visibility = "hidden";
         login_page.style.height = "70vh";
+        your_compony_logo.style.marginTop = "1vh";
+        your_compony_logo.style.marginBottom = "1vh";
         
     });
   </script>
