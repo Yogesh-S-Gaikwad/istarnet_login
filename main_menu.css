@@ -76,10 +76,16 @@
     margin-top: 5vh;
     color: white;
 }
+
  .Welcome_to{
     margin-bottom: 0%;
     font-size: 1.5rem;
 }
+.i_starnet_css img{
+    height: 2rem;
+    width: 8rem;
+}
+
 
 .input_sec {
     padding-top: 5px;
