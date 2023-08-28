@@ -28,7 +28,7 @@
           <img src="img/logo2.png" alt="" />
         </div>
       </div>
-      <div class="input_sec" id="input">
+      <div class="input_sec" id="input_sec">
         <div class="your_compony_logo">your compony logo</div>
         <p class="enter_no_text">Enter your mobile number</p>
         <div class="mobile_no">
@@ -41,7 +41,7 @@
           <input class="number" id="number" type="text" name="phone" />
         </div>
         <div class="footer">
-          <p class="Terms">
+          <p class="Terms" id="Terms">
             *By continuing to use this site, you agree to the
             <a class="terms_link" href="#">Terms of Service</a>
           </p>
@@ -56,6 +56,8 @@
     const i_starnet = document.getElementById("i_starnet");
     const Welcome_to = document.getElementById("Welcome_to");
     const btn_get_otp = document.getElementById("btn_get_otp");
+    const input_sec = document.getElementById("input_sec");
+    const Terms = document.getElementById("Terms");
 
     number.addEventListener("click", function () {
         welcome_text.style.display = "flex";
@@ -64,6 +66,8 @@
         i_starnet.style.height = "2rem";
         i_starnet.classList.add("i_starnet_css");
         btn_get_otp.style.background = "#007bff";
+        input_sec.style.height = "80%";
+        Terms.style.visibility = "hidden";
         
     });
   </script>
