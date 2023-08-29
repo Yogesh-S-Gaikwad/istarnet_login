@@ -188,7 +188,50 @@ body{
     border-radius: 4px;
   }
 
-@media (max-width: 768px) {
+/* ------------to do page ------------- */
+.bell_icon,.magnifying-glass_icon{
+    color: white;
+    margin-right: 0.5rem;
+    padding: rem;
+}
+.right_icons{
+    display: flex;
+    align-items: center;
+}
+.profile{
+ height: 2rem;
+ width: 2rem;
+ border-radius: 50%;
+ background-color:black;
+}
+.left_logo{
+    height:1.5rem ;
+    width: 6rem;
+    margin-left: 1rem;
+}
+.left_icons{
+    display: flex;
+    align-items: center;
+
+}
+.heading_div{
+    display: flex;
+   
+
+}
+.to_do,.Insights{
+    width: 50%;
+    height: 3rem;
+    border: transparent;
+    background:white;
+    border-bottom: 1px solid #ccc;
+}
+
+  .navbar{ 
+    height: 4rem;
+}
+
+/* @media (max-width: 768px) {
     #page4,.navbar,.main_sec,.page4-option{ 
         visibility: visible;
    }
@@ -200,4 +243,4 @@ body{
     #page4,.navbar,.main_sec,.page4-option{ 
          visibility: hidden;
     }
- }
+ } */
