@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .countdown-container {
+    text-align: center;
+  }
+
+  #timer {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  #startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <div class="countdown-container">
+    <p id="timer">30</p>
+    <button id="startButton">Start Countdown</button>
+  </div>
+  <!-- <input type="text" id="inputField" placeholder="Type something">
+  <button id="submitButton">Submit</button>
+  <p id="outputText"></p>
+  <script src="script.js"></script> -->
+</body>
+<!-- <script>const inputField = document.getElementById("inputField");
+    const submitButton = document.getElementById("submitButton");
+    const outputText = document.getElementById("outputText");
+    
+    submitButton.addEventListener("click", function() {
+      const inputValue = inputField.value; // Get the value from the input field
+      outputText.textContent = "You typed: " + inputValue; // Update the <p> tag's content
+    });</script> -->
+<script>
+  const timerElement = document.getElementById("timer");
+  const startButton = document.getElementById("startButton");
+
+  let countdown = 30;
+  let countdownInterval;
+
+  function updateTimer() {
+    timerElement.textContent = countdown;
+  }
+
+  function startCountdown() {
+    startButton.disabled = true;
+    countdownInterval = setInterval(() => {
+      countdown--;
+      updateTimer();
+      if (countdown === 0) {
+        clearInterval(countdownInterval);
+        startButton.disabled = false;
+      }
+    }, 1000);
+  }
+
+  startButton.addEventListener("click", startCountdown);
+</script>
+
+</html>

@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .top_nav{
     height: 2rem;
 }
@@ -153,9 +157,37 @@
     border: transparent;
     color: white;
 }
+.a_get_otp{
+    background-color: #ced4da;
+    border: transparent;
+    color: white;
+    text-decoration: none;
+}
 .btn_get_otp:hover{
+    .a_get_otp{
+        background-color:#007bff;
+        color: white;
+        
+    }
     background-color:#007bff;
 }
+
+/* ---------enter opt page-------- */
+.otp-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .otp-input {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
 @media (max-width: 768px) {
     #page4,.navbar,.main_sec,.page4-option{ 
         visibility: visible;
