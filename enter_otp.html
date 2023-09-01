@@ -14,23 +14,23 @@
 </head>
 
 <body>
-    <section class="login_page" id="login_page">
-        <div class="welcome_text" id="welcome_text">
-            <p class="Welcome_to" id="Welcome_to">Welcome to</p>
-            <div class="i_starnet" id="i_starnet">
+    <section class="login_page" id="login_page1">
+        <div class="welcome_text" id="welcome_text1">
+            <p class="Welcome_to" id="Welcome_to1">Welcome to</p>
+            <div class="i_starnet" id="i_starnet1">
                 <img src="img/logo2.png" alt="" />
             </div>
         </div>
-        <div class="input_sec" id="input_sec">
-            <div class="your_compony_logo" id="your_compony_logo">your compony logo</div>
+        <div class="input_sec" id="input_sec1">
+            <div class="your_compony_logo" id="your_compony_logo1">your compony logo</div>
             <p class="enter_no_text">Enter the OTP you received to
             <p id="entered_no"> </p>
             </p>
-            <div class="otp-container">
-                <input type="text" class="otp-input" maxlength="1" autofocus>
-                <input type="text" class="otp-input" maxlength="1">
-                <input type="text" class="otp-input" maxlength="1">
-                <input type="text" class="otp-input" maxlength="1">
+            <div class="otp-container" id="number1">
+                <input type="text" class="otp-input"  maxlength="1" autofocus>
+                <input type="text" class="otp-input" id="number3" maxlength="1">
+                <input type="text" class="otp-input" id="number4" maxlength="1">
+                <input type="text" class="otp-input" id="number5" maxlength="1">
               </div>
             <div class="footer">
                
@@ -43,17 +43,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
-<!-- <script>
-    const entered_no = document.getElementById("entered_no");
-
-    // Parse URL parameters
-    const urlParams = new URLSearchParams(window.location.search);
-    const inputValue = urlParams.get("inputValue");
-
-    if (inputValue) {
-        entered_no.textContent = "You typed: " + decodeURIComponent(inputValue);
-    }
-</script> -->
-
+    <script src="login.js"></script>
+  <script src="main.js"></script>
+ 
 </html>

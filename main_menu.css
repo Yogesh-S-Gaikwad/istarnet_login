@@ -1,72 +1,3 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-.top_nav{
-    height: 2rem;
-}
-.navbar{
-    height: 2rem;
-    background-color: #b5020b;
-    justify-content: space-between;
-}
-.back_arrow{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background-color: rgba(207, 194, 194, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.back_arrow_icon,.home_arrow_icon{
-    color: white;
-    
-}
-.nav_apps{
-    color: white;
-    text-decoration: none;
-}
-
-
-.page4-option{
-    border: 2px solid transparent;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 4px;
-    width: auto;
-    height: 6rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: small;
-    background-color: rgba(207, 194, 194, 0.5);
-   
-  }
-  
-.page4-option:hover{
-    .icon_color{
-        color: white;
-    }
-    color: white;
-    background-color:rgb(209, 52, 52);
-    text-align: center ;
-}
-
-.page-4-text{
-    width: 50%;
-    text-align: center;
-    color: white;
-    
-}
-.main_sec p{
-    margin: 0;
-}
-.icon_color{
-    color: #b5020b ;
-}
 
 /* ------------login page start------------ */
 
@@ -74,7 +5,7 @@ body{
     background-color:  #b5020b;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height:300px;
 }
 .welcome_text{
     margin-top: 5vh;
@@ -85,6 +16,9 @@ body{
     margin-bottom: 0%;
     font-size: 1.5rem;
 }
+/* .i_starnet{
+    width: 50%;
+} */
 .i_starnet_css img{
     height: 2rem;
     width: 8rem;
@@ -188,48 +122,6 @@ body{
     border-radius: 4px;
   }
 
-/* ------------to do page ------------- */
-.bell_icon,.magnifying-glass_icon{
-    color: white;
-    margin-right: 0.5rem;
-    padding: rem;
-}
-.right_icons{
-    display: flex;
-    align-items: center;
-}
-.profile{
- height: 2rem;
- width: 2rem;
- border-radius: 50%;
- background-color:black;
-}
-.left_logo{
-    height:1.5rem ;
-    width: 6rem;
-    margin-left: 1rem;
-}
-.left_icons{
-    display: flex;
-    align-items: center;
-
-}
-.heading_div{
-    display: flex;
-   
-
-}
-.to_do,.Insights{
-    width: 50%;
-    height: 3rem;
-    border: transparent;
-    background:white;
-    border-bottom: 1px solid #ccc;
-}
-
-  .navbar{ 
-    height: 4rem;
-}
 
 /* @media (max-width: 768px) {
     #page4,.navbar,.main_sec,.page4-option{ 
