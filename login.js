@@ -32,7 +32,7 @@ const number = document.getElementById("number");
     btn_get_otp.addEventListener("click", function () {
         input_sec.style.visibility = "hidden";
         input_sec2.style.visibility = "visible";
-        input_sec2.style.height = "40%";
+        input_sec2.style.height = "50%";
         input_sec2.style.top = "15%";
         
 
