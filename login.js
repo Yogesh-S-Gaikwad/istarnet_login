@@ -10,6 +10,7 @@ const number = document.getElementById("number");
     const submitButton = document.getElementById("submitButton");
 
     const input_sec2 = document.getElementById("input_sec2");
+    const your_compony_logo2 = document.getElementById("your_compony_logo2");
    
 
     number.addEventListener("click", function () {
@@ -34,6 +35,8 @@ const number = document.getElementById("number");
         input_sec2.style.visibility = "visible";
         input_sec2.style.height = "50%";
         input_sec2.style.top = "15%";
+        your_compony_logo2.style.marginTop = "1vh";
+        your_compony_logo2.style.marginBottom = "1vh";
         
 
     });
