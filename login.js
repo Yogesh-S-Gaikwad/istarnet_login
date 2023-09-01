@@ -20,7 +20,7 @@ const number = document.getElementById("number");
         i_starnet.classList.add("i_starnet_css");
         btn_get_otp.style.background = "#007bff";
         submitButton.style.background = "#007bff";
-        input_sec.style.height = "40%";
+        input_sec.style.height = "50%";
         input_sec.style.top = "15%";
         Terms.style.visibility = "hidden";
         login_page.style.height = "300px";
