@@ -45,9 +45,24 @@
             *By continuing to use this site, you agree to the
             <a class="terms_link" href="#">Terms of Service</a>
           </p>
-          <button class="btn_get_otp" id="btn_get_otp"><a id="submitButton" class="a_get_otp" href="enter_otp.html">Get OTP</a></button>
+          <button class="btn_get_otp" id="btn_get_otp"><a id="submitButton" class="a_get_otp" >Get OTP</a></button>
         </div>
       </div>
+      <div class="input_sec2" id="input_sec2">
+        <div class="your_compony_logo" id="your_compony_logo2">your compony logo</div>
+        <p class="enter_no_text">Enter the OTP you received to
+        <p id="entered_no"> </p>
+        </p>
+        <div class="otp-container" id="number2">
+            <input type="text" class="otp-input"  maxlength="1" autofocus>
+            <input type="text" class="otp-input" id="number3" maxlength="1">
+            <input type="text" class="otp-input" id="number4" maxlength="1">
+            <input type="text" class="otp-input" id="number5" maxlength="1">
+          </div>
+        <div class="footer">
+           
+            <button class="btn_get_otp" id="btn_get_otp2">Verify OTP</button>
+        </div>
     </section>
   </body>
   <script>
@@ -61,13 +76,5 @@
   <script src="login.js"></script>
   <script src="main.js"></script>
  
-  <!-- <script>
-
-    const submitButton = document.getElementById("submitButton");
-
-    submitButton.addEventListener("click", function() {
-      const inputValue = number.value;
-      submitButton.href = `enter_otp.html?inputValue=${encodeURIComponent(inputValue)}`;
-    });
-  </script> -->
+  
 </html>

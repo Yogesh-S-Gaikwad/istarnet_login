@@ -8,6 +8,8 @@ const number = document.getElementById("number");
     const login_page = document.getElementById("login_page");
     const your_compony_logo = document.getElementById("your_compony_logo");
     const submitButton = document.getElementById("submitButton");
+
+    const input_sec2 = document.getElementById("input_sec2");
    
 
     number.addEventListener("click", function () {
@@ -25,4 +27,13 @@ const number = document.getElementById("number");
         your_compony_logo.style.marginTop = "1vh";
         your_compony_logo.style.marginBottom = "1vh";
         
+    });
+
+    btn_get_otp.addEventListener("click", function () {
+        input_sec.style.visibility = "hidden";
+        input_sec2.style.visibility = "visible";
+        input_sec2.style.height = "40%";
+        input_sec2.style.top = "15%";
+        
+
     });
