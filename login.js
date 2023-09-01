@@ -21,10 +21,10 @@ const number = document.getElementById("number");
         i_starnet.classList.add("i_starnet_css");
         btn_get_otp.style.background = "#007bff";
         submitButton.style.background = "#007bff";
-        input_sec.style.height = "50%";
+        input_sec.style.height = "250px";
         input_sec.style.top = "15%";
         Terms.style.visibility = "hidden";
-        login_page.style.height = "300px";
+        login_page.style.height = "200px";
         your_compony_logo.style.marginTop = "1vh";
         your_compony_logo.style.marginBottom = "1vh";
         
@@ -33,7 +33,7 @@ const number = document.getElementById("number");
     btn_get_otp.addEventListener("click", function () {
         input_sec.style.visibility = "hidden";
         input_sec2.style.visibility = "visible";
-        input_sec2.style.height = "50%";
+        input_sec2.style.height = "250px";
         input_sec2.style.top = "15%";
         your_compony_logo2.style.marginTop = "1vh";
         your_compony_logo2.style.marginBottom = "1vh";
